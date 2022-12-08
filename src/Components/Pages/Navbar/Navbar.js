@@ -4,9 +4,9 @@ const Navbar = () => {
 
   return (
     <div>
-      <header aria-label="Site Header" class="shadow-sm">
+      <header aria-label="Site Header" class="shadow-sm bg-white" >
         <div
-          class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4"
+          class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4 "
         >
           <div class="flex w-0 flex-1 lg:hidden">
             <button class="rounded-full bg-gray-100 p-2 text-gray-600" type="button">
@@ -107,27 +107,6 @@ const Navbar = () => {
             <a class="flex-shrink-0 pl-4 text-gray-900" href="">Contact</a>
           </nav>
         </div> */}
-
-        <div className='w-full bg-slate-400 py-2'>
-
-          <div className='flex w-11/12  mx-auto justify-center'>
-            <nav
-              class="flex  w-full  justify-between  gap-2"
-            >
-
-
-              <a class="text-gray-900" href="">HOME</a>
-              <a class="text-gray-900" href="">ABOUT</a>
-              <a class="text-gray-900" href="">MARKET DATA</a>
-              <a class="text-gray-900" href="">INVEST</a>
-              <a class="text-gray-900" href="">LIST</a>
-              <a class="text-gray-900" href="">TRADE</a>
-              <a class="text-gray-900" href="">REGULATION</a>
-              <a class="text-gray-900" href="">LEARN</a>
-              <a class="text-gray-900" href="">RESOURCES</a>
-            </nav>
-          </div>
-        </div>
 
       </header >
 
